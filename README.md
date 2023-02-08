@@ -45,4 +45,5 @@ exmple - http://127.0.0.1:5000/delete?id=8783
 ALL THE CHANGES WILL BE REFLECTED ON THE HOMEPAGE, REFRESH AFTER PERFORMING ANY UPDATION OR DELETION TO SEE CHANGES
 http://127.0.0.1:5000/
 
-![alt text](https://imgur.com/bVOOcjE)
+![home]([https://user-images.githubusercontent.com/58478133/165243012-bb91a116-87d0-4131-ab00-dc88d92aec73.png](https://imgur.com/bVOOcjE) "Homepage")
+
