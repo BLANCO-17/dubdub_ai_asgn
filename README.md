@@ -23,6 +23,8 @@ exmple - http://127.0.0.1:5000/create?task=work+on+Templates
 
 TO UPDATE THE STATUS OF A TASK
 
+0 = Incomplete, 1 = Complete
+
 Head to homepage[http://127.0.0.1:5000/] and look for the ID of the said task.
 
 Now simply feed that ID to the API url like this -
@@ -45,5 +47,5 @@ exmple - http://127.0.0.1:5000/delete?id=8783
 ALL THE CHANGES WILL BE REFLECTED ON THE HOMEPAGE, REFRESH AFTER PERFORMING ANY UPDATION OR DELETION TO SEE CHANGES
 http://127.0.0.1:5000/
 
-![home]([https://user-images.githubusercontent.com/58478133/165243012-bb91a116-87d0-4131-ab00-dc88d92aec73.png](https://imgur.com/bVOOcjE) "Homepage")
+![Homepage - Imgur](https://user-images.githubusercontent.com/58478133/217510425-c850674d-ada6-441d-b889-522142f5bbad.png)
 
