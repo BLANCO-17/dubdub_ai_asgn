@@ -32,11 +32,16 @@ def create_task():
 def update_task():
     id = request.args.get('id')
     status = request.args.get('status')
-    # task = request.args.get('task')
-    
+    task = request.args.get('task')
+    print(task)
     try:
         db = pd.read_csv('Task.csv')
         db.loc[db["ID"] == int(id), "STATUS"] = int(status)
+        
+        #IN CASE THERE IS A NEED TO UPDATE THE TASK NAME
+        if(task != None):
+            db.loc[db["ID"] == int(id), "NAME"] = str(task)
+            
         
         db.to_csv('Task.csv', index=False)        
     except:
