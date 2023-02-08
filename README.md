@@ -17,7 +17,7 @@ TO CREATE A NEW TASK
 
 http://127.0.0.1:5000/create?task=[enter value here]
 
-exmple - http://127.0.0.1:5000/create?task=work+on+Templates
+example - http://127.0.0.1:5000/create?task=work+on+Templates
 
 -----------------------------------------------------------------
 
@@ -30,9 +30,9 @@ Head to homepage[http://127.0.0.1:5000/] and look for the ID of the said task.
 Now simply feed that ID to the API url like this -
 http://127.0.0.1:5000/update?id=[enter id here]&status=[enter status value here] 
 
-exmple - http://127.0.0.1:5000/update?id=4451&status=0
+example - http://127.0.0.1:5000/update?id=4451&status=0
 or
-exmple - http://127.0.0.1:5000/update?id=4451&status=0&task=dont+water+the+plants
+example - http://127.0.0.1:5000/update?id=4451&status=0&task=dont+water+the+plants
 
 -----------------------------------------------------------------
 
@@ -42,7 +42,7 @@ we have to specify the id of the task.
 
 go to API url - http://127.0.0.1:5000/delete?id=[enter ID here]
 
-exmple - http://127.0.0.1:5000/delete?id=8783
+example - http://127.0.0.1:5000/delete?id=8783
 
 -----------------------------------------------------------------
 
