@@ -31,6 +31,8 @@ Now simply feed that ID to the API url like this -
 http://127.0.0.1:5000/update?id=[enter id here]&status=[enter status value here] 
 
 exmple - http://127.0.0.1:5000/update?id=4451&status=0
+or
+exmple - http://127.0.0.1:5000/update?id=4451&status=0&task=dont+water+the+plants
 
 -----------------------------------------------------------------
 
